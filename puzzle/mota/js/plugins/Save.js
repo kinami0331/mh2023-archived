@@ -1,0 +1,1 @@
+StorageManager.localFileDirectoryPath=function(){var path=window.location.pathname.replace(/(\/www|)\/[^\/]*$/,"/save/");if(path.match(/^\/([A-Z]\:)/)){path=path.slice(1)}return decodeURIComponent(path)};
